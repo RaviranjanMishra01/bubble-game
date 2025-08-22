@@ -4,7 +4,7 @@ Ravi's Bubble Game is a fun and interactive browser-based game where players mus
 
 ## Live preview
 
-[](https://github.com/user/repo/blob/branch/other_file.md)
+[https://raviranjanmishra01.github.io/bubble-game/](https://raviranjanmishra01.github.io/bubble-game/)
 
 
 ## preview
