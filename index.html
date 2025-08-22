@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi's Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main">
+        <h1>Ravi's Bubble Game 😊</h1>
+        <button class="start-button" onclick="startGame()">Start Game</button>
+        <div class="buble">
+            <nav class="nav-main">
+                <div class="nav-part">
+                    <h2>Hit</h2>
+                    <div class="boxs hit">0</div>
+                </div>
+                <div class="nav-part">
+                    <h2>Timer</h2>
+                    <div class="boxs timer">60</div>
+                </div>
+                <div class="nav-part">
+                    <h2>Score</h2>
+                    <div class="boxs sco">0</div>
+                </div>
+            </nav>
+            <div class="content"></div>
+        </div>
+        <div class="alert">Game Over!</div>
+        <div class="color-changer">
+            <button class="color-toggle" onclick="toggleBackground()">Toggle Black/White</button>
+            <button class="music-toggle" onclick="toggleMusic()">Mute Music</button>
+        </div>
+    </header>
+    <audio id="bg-music" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
